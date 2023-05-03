@@ -5,7 +5,7 @@ using System.Threading;
 var target = Argument("target", "Run");
 var config = Argument("configuration", "Release");
 
-var tinyLifeDir = $"{Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)}/Library/Application Support/Steam/steamapps/common/Tiny Life/Tiny Life";
+var tinyLifeDir = $"{Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)}/Tiny Life";
 
 Task("Clean").Does(() => {
     EnsureDirectoryDoesNotExist($"bin/{config}");
