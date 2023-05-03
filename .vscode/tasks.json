@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "restore",
+      "type": "shell",
+      "command": "dotnet tool restore",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "run",
+      "type": "shell",
+      "command": "dotnet cake --target Run",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "publish",
+      "type": "shell",
+      "command": "dotnet cake --target Publish",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

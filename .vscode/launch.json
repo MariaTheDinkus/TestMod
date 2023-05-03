@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Restore",
+        "type": "node",
+        "request": "launch",
+        "preLaunchTask": "restore",
+        "internalConsoleOptions": "neverOpen"
+      },
+      {
+        "name": "Run",
+        "type": "node",
+        "request": "launch",
+        "preLaunchTask": "run",
+        "internalConsoleOptions": "neverOpen"
+      },
+      {
+        "name": "Publish",
+        "type": "node",
+        "request": "launch",
+        "preLaunchTask": "publish",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  
